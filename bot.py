@@ -21,7 +21,7 @@ async def start(message: types.Message):
     kb = InlineKeyboardBuilder()
     # Кнопка для Telegram Mini App
     kb.button(
-        text="Открыть в Portals Market (мини‑апп)",
+        text="📱 Открыть в Приложении",
         web_app=WebAppInfo(url="https://trepall.github.io/Portal-market/")
     )
     kb.adjust(1)
